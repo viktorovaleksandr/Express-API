@@ -1,0 +1,24 @@
+body {
+  background: url(/images/calculator.jpg);
+  background-size: cover;
+  font: 24px 'Work Sans', Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+form {
+	padding: 10px;
+}
+form input {
+	font-size: 16px;
+	outline-style: none;
+	font-family: 'Work Sans', sans-serif;
+	padding: 5px;
+	border-radius: 10px;
+}
+#number {
+	width: 240px;
+}
+.factorial-res {
+	color: red;
+	display: none;
+}

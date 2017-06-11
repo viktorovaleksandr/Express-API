@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+ 	<form id="factorial">
+    	<input type="number" id="number" name="number">
+    	<input type="submit" value="To count">
+    </form>	
+    <div class="factorial-res">
+    	<h1 id="number-res"></h1>
+    </div>	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/javascripts/script.js"></script>
+  </body>
+</html>
